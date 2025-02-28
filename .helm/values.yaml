@@ -1,0 +1,14 @@
+---
+
+image:
+  registry: ""
+  repository: ""
+  tag: ""
+
+domain: my-app1.com
+# TODO
+# domains:
+#   - my-app1.com
+#   - my-app2.com
+#   - .....
+#   - my-appN.com
