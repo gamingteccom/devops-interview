@@ -2,12 +2,6 @@ stages:
   - build
   - deploy
 
-variables:
-  DOCKER_REGISTRY: CHANGE_ME
-  DOCKER_REPOSITORY: CHANGE_ME
-  DOCKER_TAG: CHANGE_ME
-  HELM_RELEASE_NAME: CHANGE_ME
-
 build:
   stage: build
   image: docker:28
