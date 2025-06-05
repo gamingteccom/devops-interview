@@ -2,8 +2,8 @@
 
 image:
   registry: ""
-  repository: ""
-  tag: ""
+  repository: "my-app"
+  tag: "latest"
 
 domain: my-app1.com
 # TODO
