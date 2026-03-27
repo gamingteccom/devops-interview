@@ -1,5 +1,23 @@
-#stages:
-#  - build-publish
-#  - test
-#  - deploy
+stages:
+  - build
+  - deploy
 
+build:
+  stage: build
+  image: docker:28
+  services:
+    - docker:28-dind
+  variables:
+    DOCKER_TLS_CERTDIR: "/certs"
+  script:
+    - # TODO
+  only:
+    - v2
+
+deploy:
+  stage: deploy
+  image: alpine/helm:3.9.0
+  script:
+    - # TODO
+  only:
+    - v2
