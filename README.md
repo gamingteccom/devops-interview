@@ -4,11 +4,11 @@
 
 It is a simple application that we should build from the source code.
 
-**How to build**: the command `python build.py` generates an `index.php` file and puts it in a public directory
+**How to build**: the command `python build.py` generates an `index.js` file and puts it in a public directory
 
 ## Task
 
-Your task is to prepare the configuration necessary to deploy the `index.php` application to a Kubernetes cluster.
+Your task is to prepare the configuration necessary to deploy the `index.js` application to a Kubernetes cluster.
 
 **NOTE**:
 
